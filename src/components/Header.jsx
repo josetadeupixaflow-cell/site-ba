@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiMenu, FiX } from 'react-icons/fi';
+import { FiMenu, FiX, FiMoon, FiSun } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 
 const links = [
@@ -11,7 +11,7 @@ const links = [
   { href: '#contato', label: 'Contato' },
 ];
 
-export default function Header() {
+export default function Header({ darkMode, setDarkMode }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -27,14 +27,30 @@ export default function Header() {
               {link.label}
             </a>
           ))}
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="rounded-full border border-slate-200 p-2 text-slate-700 transition hover:text-primary dark:border-slate-700 dark:text-slate-100"
+            aria-label="Alternar tema"
+          >
+            {darkMode ? <FiSun size={18} /> : <FiMoon size={18} />}
+          </button>
           <a href="#contato" className="rounded-full bg-gradient-to-r from-primary to-secondary px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition hover:scale-[1.02]">
             Solicitar Orçamento
           </a>
         </nav>
 
-        <button className="rounded-full border border-slate-200 p-2 text-slate-700 md:hidden dark:border-slate-700 dark:text-slate-100" onClick={() => setOpen(!open)}>
-          {open ? <FiX size={20} /> : <FiMenu size={20} />}
-        </button>
+        <div className="flex items-center gap-2 md:hidden">
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="rounded-full border border-slate-200 p-2 text-slate-700 dark:border-slate-700 dark:text-slate-100"
+            aria-label="Alternar tema"
+          >
+            {darkMode ? <FiSun size={18} /> : <FiMoon size={18} />}
+          </button>
+          <button className="rounded-full border border-slate-200 p-2 text-slate-700 dark:border-slate-700 dark:text-slate-100" onClick={() => setOpen(!open)}>
+            {open ? <FiX size={20} /> : <FiMenu size={20} />}
+          </button>
+        </div>
       </div>
 
       {open && (

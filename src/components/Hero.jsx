@@ -19,7 +19,7 @@ export default function Hero() {
             <a href="#contato" className="rounded-full bg-gradient-to-r from-primary to-secondary px-7 py-3 text-center font-semibold text-white shadow-soft transition hover:scale-[1.02]">
               Solicitar orçamento
             </a>
-            <a href="https://wa.me/55969966087912" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 rounded-full border border-green-500 px-7 py-3 font-semibold text-green-600 transition hover:bg-green-50 dark:hover:bg-green-500/10">
+            <a href="https://wa.me/5511966087912" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 rounded-full border border-green-500 px-7 py-3 font-semibold text-green-600 transition hover:bg-green-50 dark:hover:bg-green-500/10">
               <FaWhatsapp /> WhatsApp
             </a>
           </div>

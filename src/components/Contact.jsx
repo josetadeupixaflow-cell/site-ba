@@ -11,7 +11,7 @@ export default function Contact() {
           <div className="mt-8 space-y-4">
             <div className="flex items-center gap-3 rounded-2xl bg-white/80 p-4 shadow-sm dark:bg-slate-950/70">
               <FaPhoneAlt className="text-primary" />
-              <span>(96) 96608-7912</span>
+              <span>(11) 96608-7912</span>
             </div>
             <div className="flex items-center gap-3 rounded-2xl bg-white/80 p-4 shadow-sm dark:bg-slate-950/70">
               <FaEnvelope className="text-primary" />

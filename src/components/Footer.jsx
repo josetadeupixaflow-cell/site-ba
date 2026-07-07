@@ -20,7 +20,7 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold text-white">Contato</h4>
           <ul className="mt-4 space-y-3 text-sm text-slate-400">
-            <li>(96) 96608-7912</li>
+            <li>(11) 96608-7912</li>
             <li>contato@baconfeccoes.com.br</li>
             <li>Atendimento personalizado</li>
           </ul>
@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="mt-4 flex gap-3">
             <a href="https://instagram.com" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-primary"><FaInstagram /></a>
             <a href="https://facebook.com" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-primary"><FaFacebookF /></a>
-            <a href="https://wa.me/55969966087912" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-primary"><FaWhatsapp /></a>
+            <a href="https://wa.me/5511966087912" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-primary"><FaWhatsapp /></a>
           </div>
         </div>
       </div>

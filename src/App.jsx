@@ -15,6 +15,11 @@ import Footer from './components/Footer';
 
 function App() {
   const [showTop, setShowTop] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const storedTheme = localStorage.getItem('ba-theme');
+    if (storedTheme) return storedTheme === 'dark';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  });
 
   useEffect(() => {
     AOS.init({ duration: 900, once: true, offset: 120 });
@@ -24,9 +29,14 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', darkMode);
+    localStorage.setItem('ba-theme', darkMode ? 'dark' : 'light');
+  }, [darkMode]);
+
   return (
-    <div className="min-h-screen bg-white text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-500">
-      <Header />
+    <div className="min-h-screen bg-white text-slate-800 transition-colors duration-500 dark:bg-slate-950 dark:text-slate-100">
+      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <main>
         <Hero />
         <About />
@@ -39,7 +49,7 @@ function App() {
       <Footer />
 
       <a
-        href="https://wa.me/55969966087912"
+        href="https://wa.me/5511966087912"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-2xl shadow-green-500/30 transition hover:scale-105"
