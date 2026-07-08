@@ -4,14 +4,16 @@ import { FiX } from 'react-icons/fi';
 import SectionHeading from './SectionHeading';
 
 const images = [
-  'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80',
+  '/1000083186.jpg',
+  '/1000083193.jpg',
+  '/1000083197.jpg',
+  '/1000083203.jpg',
+  '/1000083208.jpg',
+  '/1000083255.jpg',
+  '/1000083258.jpg',
+  '/1000084922.jpg',
+  '/1000084933.jpg',
+  '/IMG-20260707-WA0098.jpg',
 ];
 
 export default function Gallery() {

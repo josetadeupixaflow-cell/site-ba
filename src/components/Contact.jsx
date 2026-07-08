@@ -19,7 +19,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center gap-3 rounded-2xl bg-white/80 p-4 shadow-sm dark:bg-slate-950/70">
               <FaMapMarkerAlt className="text-primary" />
-              <span>Localização disponível em breve</span>
+              <span>Zona Norte de São Paulo, Nova Galvão</span>
             </div>
           </div>
 
