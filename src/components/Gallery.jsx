@@ -4,16 +4,16 @@ import { FiX } from 'react-icons/fi';
 import SectionHeading from './SectionHeading';
 
 const images = [
-  '/1000083186.jpg',
-  '/1000083193.jpg',
-  '/1000083197.jpg',
-  '/1000083203.jpg',
-  '/1000083208.jpg',
-  '/1000083255.jpg',
-  '/1000083258.jpg',
-  '/1000084922.jpg',
-  '/1000084933.jpg',
-  '/IMG-20260707-WA0098.jpg',
+  '/site-ba/1000083186.jpg',
+  '/site-ba/1000083193.jpg',
+  '/site-ba/1000083197.jpg',
+  '/site-ba/1000083203.jpg',
+  '/site-ba/1000083208.jpg',
+  '/site-ba/1000083255.jpg',
+  '/site-ba/1000083258.jpg',
+  '/site-ba/1000084922.jpg',
+  '/site-ba/1000084933.jpg',
+  '/site-ba/IMG-20260707-WA0098.jpg',
 ];
 
 export default function Gallery() {
