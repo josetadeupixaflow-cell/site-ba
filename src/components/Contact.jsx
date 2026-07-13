@@ -23,7 +23,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <a href="https://wa.me/55969966087912" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 rounded-full bg-green-500 px-6 py-3 font-semibold text-white shadow-lg shadow-green-500/20">
+          <a href="https://wa.me/5511966087912" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 rounded-full bg-green-500 px-6 py-3 font-semibold text-white shadow-lg shadow-green-500/20">
             <FaWhatsapp /> Falar no WhatsApp
           </a>
         </div>
