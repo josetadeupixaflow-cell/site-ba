@@ -1,31 +1,33 @@
 import { motion } from 'framer-motion';
 import SectionHeading from './SectionHeading';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const products = [
   {
     title: 'Baby Doll',
     description: 'Peças femininas com acabamento refinado e conforto para todos os momentos.',
-    image: '/1000083197.jpg',
+    image: `${baseUrl}1000083197.jpg`,
   },
   {
     title: 'Calcinhas',
     description: 'Modelos modernos, leves e com excelente caimento para o dia a dia.',
-    image: '/1000084933 (1).jpg',
+    image: `${baseUrl}1000084933%20(1).jpg`,
   },
   {
     title: 'Moda Feminina',
     description: 'Coleções com estilo, personalidade e acabamento impecável.',
-    image: '/1000083203.jpg',
+    image: `${baseUrl}1000083203.jpg`,
   },
   {
     title: 'Conjunto de Lingerie',
     description: 'Peças sofisticadas, delicadas e com design especial para destacar sua personalidade.',
-    image: '/1000084922.jpg',
+    image: `${baseUrl}1000084922.jpg`,
   },
   {
     title: 'Pijamas',
     description: 'Conforto e estética em peças pensadas para repouso e estilo.',
-    image: '/1000083255.jpg',
+    image: `${baseUrl}1000083255.jpg`,
   },
 ];
 

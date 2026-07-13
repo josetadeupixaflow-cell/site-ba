@@ -53,8 +53,8 @@ export default function Contact() {
 
       <div className="mx-auto mt-12 max-w-7xl overflow-hidden rounded-[2rem] border border-slate-200 bg-white/70 p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950/70">
         <iframe
-          src="https://www.google.com/maps?q=Vila%20Nova%20Galv%C3%A3o&output=embed"
-          title="Localização Vila Nova Galvão"
+          src="https://www.google.com/maps?q=Rua%20Morro%20do%20Livramento&output=embed"
+          title="Localização Rua Morro do Livramento"
           className="h-72 w-full rounded-[1.5rem] border-0"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
