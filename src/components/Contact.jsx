@@ -19,7 +19,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center gap-3 rounded-2xl bg-white/80 p-4 shadow-sm dark:bg-slate-950/70">
               <FaMapMarkerAlt className="text-primary" />
-              <span>Zona Norte de São Paulo, Nova Galvão</span>
+              <span>Vila Nova Galvão</span>
             </div>
           </div>
 
@@ -51,10 +51,14 @@ export default function Contact() {
         </form>
       </div>
 
-      <div className="mx-auto mt-12 max-w-7xl rounded-[2rem] border border-slate-200 bg-white/70 p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950/70">
-        <div className="flex h-72 items-center justify-center rounded-[1.5rem] bg-slate-100 text-slate-500 dark:bg-slate-900 dark:text-slate-400">
-          Google Maps em breve.
-        </div>
+      <div className="mx-auto mt-12 max-w-7xl overflow-hidden rounded-[2rem] border border-slate-200 bg-white/70 p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950/70">
+        <iframe
+          src="https://www.google.com/maps?q=Vila%20Nova%20Galv%C3%A3o&output=embed"
+          title="Localização Vila Nova Galvão"
+          className="h-72 w-full rounded-[1.5rem] border-0"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
       </div>
     </section>
   );

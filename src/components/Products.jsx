@@ -5,27 +5,27 @@ const products = [
   {
     title: 'Baby Doll',
     description: 'Peças femininas com acabamento refinado e conforto para todos os momentos.',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
+    image: '/1000083197.jpg',
   },
   {
     title: 'Calcinhas',
     description: 'Modelos modernos, leves e com excelente caimento para o dia a dia.',
-    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80',
+    image: '/1000084933 (1).jpg',
   },
   {
     title: 'Moda Feminina',
     description: 'Coleções com estilo, personalidade e acabamento impecável.',
-    image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80',
+    image: '/1000083203.jpg',
   },
   {
-    title: 'Camisetas',
-    description: 'Produção versátil para marcas e demandas de moda contemporânea.',
-    image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80',
+    title: 'Conjunto de Lingerie',
+    description: 'Peças sofisticadas, delicadas e com design especial para destacar sua personalidade.',
+    image: '/1000084922.jpg',
   },
   {
     title: 'Pijamas',
     description: 'Conforto e estética em peças pensadas para repouso e estilo.',
-    image: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80',
+    image: '/1000083255.jpg',
   },
 ];
 
